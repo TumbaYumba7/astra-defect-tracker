@@ -25,7 +25,7 @@ public class IssueEntity {
     @Column(name = "updated_at", nullable = false) private Instant updatedAt;
     @Version @Column(name = "row_version", nullable = false) private long version;
 
-    protected IssueEntity() { }
+    public IssueEntity() { }
     public Long getId() { return id; }
     public ProjectEntity getProject() { return project; }
     public UserEntity getReporter() { return reporter; }
