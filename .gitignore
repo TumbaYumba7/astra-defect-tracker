@@ -1,0 +1,22 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local build and editor output
+/target/
+/.idea/
+/.vscode/
+*.iml
+/.tmp/
+
+# Coursework materials for submission
+/*.docx
+/*.pdf
+/*.pptx
+/*.zip
+/docs/report_figures/
+/docs/report_render/
+/tools/generate_report.py
