@@ -59,5 +59,5 @@ CREATE INDEX issue_comment_issue_created_idx ON issue_comment(issue_id, created_
 CREATE INDEX issue_history_issue_created_idx ON issue_history(issue_id, created_at);
 
 INSERT INTO project (id, project_key, name, game_title, description, created_at)
-VALUES ('00000000-0000-0000-0000-000000000001', 'ASTRA', 'Астра Протокол', 'Astra Protocol',
+VALUES ('00000000-0000-0000-0000-000000000001', 'GAME', 'Демонстрационный проект', 'Game Project',
         'Демонстрационный проект для регистрации дефектов игрового клиента и серверной логики.', CURRENT_TIMESTAMP);

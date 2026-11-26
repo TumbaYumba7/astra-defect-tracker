@@ -11,8 +11,8 @@
   <groupId>ru.mirea.coursework</groupId>
   <artifactId>defect-tracker</artifactId>
   <version>1.0.0</version>
-  <name>Astra Defect Tracker</name>
-  <description>Issue tracking backend for a game project</description>
+  <name>Трекер дефектов игрового проекта</name>
+  <description>Issue tracking service for a game project</description>
   <properties>
     <java.version>21</java.version>
   </properties>

@@ -1,6 +1,6 @@
 openapi: 3.1.1
 info:
-  title: Astra Defect Tracker API
+  title: Трекер дефектов игрового проекта API
   version: 1.0.0
   description: REST API учебного трекера дефектов игрового проекта.
 servers:
@@ -253,7 +253,7 @@ components:
       type: object
       properties:
         id: { type: integer, format: int64 }
-        issueKey: { type: string, example: ASTRA-00001 }
+        issueKey: { type: string, example: GAME-00001 }
         projectId: { type: string, format: uuid }
         title: { type: string }
         description: { type: string }
